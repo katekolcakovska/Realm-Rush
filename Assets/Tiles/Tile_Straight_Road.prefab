@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: -4851001423541414395, guid: cf35cd3f7cd7c824fbc904f12eeb1c65, type: 3}
     - target: {fileID: 47999584388474156, guid: abb57b583203f9449860aab6cceb7eae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 47999584388474156, guid: abb57b583203f9449860aab6cceb7eae, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22,7 +22,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 47999584388474156, guid: abb57b583203f9449860aab6cceb7eae, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 47999584388474156, guid: abb57b583203f9449860aab6cceb7eae, type: 3}
       propertyPath: m_LocalRotation.w
@@ -30,15 +30,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 47999584388474156, guid: abb57b583203f9449860aab6cceb7eae, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 47999584388474156, guid: abb57b583203f9449860aab6cceb7eae, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 47999584388474156, guid: abb57b583203f9449860aab6cceb7eae, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 47999584388474156, guid: abb57b583203f9449860aab6cceb7eae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -52,17 +52,49 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1531130206735325021, guid: abb57b583203f9449860aab6cceb7eae, type: 3}
+      propertyPath: isPlaceble
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2876305447066731247, guid: abb57b583203f9449860aab6cceb7eae, type: 3}
       propertyPath: m_Materials.Array.size
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2876305447066731247, guid: abb57b583203f9449860aab6cceb7eae, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -6126091556477775235, guid: 56a296b5e56e931409d365d14dd26218, type: 3}
+    - target: {fileID: 2876305447066731247, guid: abb57b583203f9449860aab6cceb7eae, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: -7796859627820213912, guid: 2caf9cc81d62cf9448c87d22c681c806, type: 3}
     - target: {fileID: 2876305447066731247, guid: abb57b583203f9449860aab6cceb7eae, type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: -8067726398312463513, guid: b90747cd68854174f930022a359550c9, type: 3}
     - target: {fileID: 5501175261226123273, guid: abb57b583203f9449860aab6cceb7eae, type: 3}
       propertyPath: m_Name
-      value: Tile_Road+Straight
+      value: Tile_Straight_Road
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486235844753355180, guid: abb57b583203f9449860aab6cceb7eae, type: 3}
+      propertyPath: m_text
+      value: 2,2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486235844753355180, guid: abb57b583203f9449860aab6cceb7eae, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486235844753355180, guid: abb57b583203f9449860aab6cceb7eae, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486235844753355180, guid: abb57b583203f9449860aab6cceb7eae, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486235844753355180, guid: abb57b583203f9449860aab6cceb7eae, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

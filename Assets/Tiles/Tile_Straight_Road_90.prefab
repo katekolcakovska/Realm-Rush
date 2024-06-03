@@ -38,7 +38,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3452153054489907691, guid: 80d11c14eecdef84a9f2c02c405f8129, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3452153054489907691, guid: 80d11c14eecdef84a9f2c02c405f8129, type: 3}
       propertyPath: m_LocalRotation.w
@@ -46,15 +46,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3452153054489907691, guid: 80d11c14eecdef84a9f2c02c405f8129, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3452153054489907691, guid: 80d11c14eecdef84a9f2c02c405f8129, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3452153054489907691, guid: 80d11c14eecdef84a9f2c02c405f8129, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3452153054489907691, guid: 80d11c14eecdef84a9f2c02c405f8129, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -68,9 +68,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4214717756331107226, guid: 80d11c14eecdef84a9f2c02c405f8129, type: 3}
+      propertyPath: isPlaceble
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7141051458312287438, guid: 80d11c14eecdef84a9f2c02c405f8129, type: 3}
       propertyPath: m_Name
       value: Tile_Straight_Road_90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8449237326350779755, guid: 80d11c14eecdef84a9f2c02c405f8129, type: 3}
+      propertyPath: m_text
+      value: 0,1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8449237326350779755, guid: 80d11c14eecdef84a9f2c02c405f8129, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8449237326350779755, guid: 80d11c14eecdef84a9f2c02c405f8129, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8449237326350779755, guid: 80d11c14eecdef84a9f2c02c405f8129, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8449237326350779755, guid: 80d11c14eecdef84a9f2c02c405f8129, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
