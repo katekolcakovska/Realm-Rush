@@ -6,15 +6,9 @@ public class TargetLocator : MonoBehaviour
 {
     [SerializeField] Transform weapon;
     [SerializeField] ParticleSystem projectileParticles;
-    [SerializeField] float range = 15;
+    [SerializeField] float range = 15f;
     Transform target;
 
-   /* void Start()
-    {
-        target = FindObjectOfType<Enemy>().transform;
-    }*/
-
-    
     void Update()
     {
         FindClosestTarget();
@@ -27,11 +21,11 @@ public class TargetLocator : MonoBehaviour
         Transform closestTarget = null;
         float maxDistance = Mathf.Infinity;
 
-        foreach(Enemy enemy in enemies)
+        foreach (Enemy enemy in enemies)
         {
             float targetDistance = Vector3.Distance(transform.position, enemy.transform.position);
 
-            if(targetDistance < maxDistance)
+            if (targetDistance < maxDistance)
             {
                 closestTarget = enemy.transform;
                 maxDistance = targetDistance;
@@ -40,12 +34,14 @@ public class TargetLocator : MonoBehaviour
 
         target = closestTarget;
     }
+
     void AimWeapon()
     {
         float targetDistance = Vector3.Distance(transform.position, target.position);
+
         weapon.LookAt(target);
 
-        if(targetDistance < range)
+        if (targetDistance < range)
         {
             Attack(true);
         }
@@ -57,8 +53,8 @@ public class TargetLocator : MonoBehaviour
 
     void Attack(bool isActive)
     {
-        var emisionModule = projectileParticles.emission;
-        emisionModule.enabled = isActive;
+        var emissionModule = projectileParticles.emission;
+        emissionModule.enabled = isActive;
     }
-
 }
+

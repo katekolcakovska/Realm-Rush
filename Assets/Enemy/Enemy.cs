@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] int goldPenalty = 25;
 
     Bank bank;
+
     void Start()
     {
         bank = FindObjectOfType<Bank>();
@@ -15,7 +16,7 @@ public class Enemy : MonoBehaviour
 
     public void RewardGold()
     {
-        if(bank == null) { return; }
+        if (bank == null) { return; }
         bank.Deposit(goldReward);
     }
 
