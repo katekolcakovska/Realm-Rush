@@ -3787,7 +3787,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    minKillSpeed: 0
+    minKillSpeed: 1
     maxKillSpeed: 10000
     radiusScale: 1
     collidesWith:
@@ -4840,6 +4840,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6242108071188990989}
   - component: {fileID: 1031125622655676626}
+  - component: {fileID: 4470886943786025939}
   m_Layer: 0
   m_Name: Tower
   m_TagString: Untagged
@@ -4879,6 +4880,18 @@ MonoBehaviour:
   weapon: {fileID: 4892753261291230868}
   projectileParticles: {fileID: 3595851957805733900}
   range: 15
+--- !u!114 &4470886943786025939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2602223023254643238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08ca2ff6a734933408d77aebd3fc230f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3853427780452935364
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -93,7 +93,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5265477269344992983}
   - component: {fileID: 3892052427957832734}
-  - component: {fileID: 2906141309646835342}
   - component: {fileID: 2066757765360421819}
   m_Layer: 0
   m_Name: Enemy
@@ -132,20 +131,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   path: []
   speed: 1
---- !u!114 &2906141309646835342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4723922727657493409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aaac6c807c97fa647acaec695f3c7664, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHitPoints: 5
-  currentHitPoints: 0
 --- !u!114 &2066757765360421819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,6 +143,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0777d102df98d046a04cf9dbb015371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goldReward: 25
+  goldPenalty: 25
 --- !u!1 &8496567621992679251
 GameObject:
   m_ObjectHideFlags: 0
@@ -170,6 +157,7 @@ GameObject:
   - component: {fileID: 5264096659994497612}
   - component: {fileID: 7991957824955098758}
   - component: {fileID: 905510770645725840}
+  - component: {fileID: 5815929271058152749}
   m_Layer: 0
   m_Name: enemy_ufoPurpleWeapon
   m_TagString: Untagged
@@ -267,3 +255,17 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5497174916500663798, guid: 06d219b38831eb742bc0d5f365259c3f, type: 3}
+--- !u!114 &5815929271058152749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8496567621992679251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaac6c807c97fa647acaec695f3c7664, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHitPoints: 5
+  currentHitPoints: 0

@@ -685,6 +685,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 47999584388474156, guid: abb57b583203f9449860aab6cceb7eae, type: 3}
   m_PrefabInstance: {fileID: 355960367}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &461002731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 461002733}
+  - component: {fileID: 461002732}
+  m_Layer: 0
+  m_Name: Bank
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &461002732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461002731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3fef474f19bd8444812d6a58631d37d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &461002733
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461002731}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &463583688 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 47999584388474156, guid: abb57b583203f9449860aab6cceb7eae, type: 3}
@@ -2248,3 +2292,4 @@ SceneRoots:
   - {fileID: 705507995}
   - {fileID: 1946222495}
   - {fileID: 1195895112}
+  - {fileID: 461002733}
